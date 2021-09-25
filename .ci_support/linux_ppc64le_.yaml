@@ -3,7 +3,7 @@ aws_c_auth:
 aws_c_common:
 - 0.6.9
 aws_c_http:
-- 0.6.5
+- 0.6.6
 aws_c_io:
 - 0.10.9
 c_compiler:
@@ -20,8 +20,5 @@ docker_image:
 - quay.io/condaforge/linux-anvil-comp7
 openssl:
 - 1.1.1
-pin_run_as_build:
-  openssl:
-    max_pin: x.x.x
 target_platform:
 - linux-ppc64le
