@@ -7,7 +7,7 @@ aws_c_common:
 aws_c_http:
 - 0.6.10
 aws_c_io:
-- 0.10.13
+- 0.10.14
 c_compiler:
 - gcc
 c_compiler_version:
@@ -19,11 +19,8 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-comp7
+- quay.io/condaforge/linux-anvil-cos7-x86_64
 openssl:
 - 1.1.1
 target_platform:
 - linux-64
-zip_keys:
-- - cdt_name
-  - docker_image
