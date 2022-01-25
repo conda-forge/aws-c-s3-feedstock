@@ -1,0 +1,26 @@
+aws_c_auth:
+- 0.6.10
+aws_c_cal:
+- 0.5.12
+aws_c_common:
+- 0.6.19
+aws_c_http:
+- 0.6.10
+aws_c_io:
+- 0.10.17
+c_compiler:
+- gcc
+c_compiler_version:
+- '9'
+cdt_name:
+- cos6
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+docker_image:
+- quay.io/condaforge/linux-anvil-cos7-x86_64
+openssl:
+- '3'
+target_platform:
+- linux-64
