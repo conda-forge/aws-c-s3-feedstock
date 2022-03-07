@@ -22,6 +22,7 @@ requirements:
     - {{ compiler('c') }}
     - ninja
   host:
+    - aws-checksums
     - aws-c-auth
     - aws-c-cal
     - aws-c-common
