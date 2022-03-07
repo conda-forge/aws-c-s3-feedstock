@@ -1,5 +1,5 @@
 {% set name = "aws-c-s3" %}
-{% set version = "0.1.35" %}
+{% set version = "0.1.36" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 4bf0fc2fb8e2ad08f1e03b9a2a02fef0f399513bf740583689e5d711e34361ec
+  sha256: d4c514559d1390448d07c26463c2b26f4eb1c56dcc9a259e9d594f445c7afb1e
   patches:
     - 0001-Find-LibCrypto-on-Linux.patch
 
 build:
-  number: 2
+  number: 0
   run_exports:
     - {{ pin_subpackage("aws-c-s3", max_pin="x.x.x") }}
 
@@ -22,6 +22,7 @@ requirements:
     - {{ compiler('c') }}
     - ninja
   host:
+    - aws-checksums
     - aws-c-auth
     - aws-c-cal
     - aws-c-common
