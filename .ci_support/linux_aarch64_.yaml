@@ -9,7 +9,7 @@ aws_c_common:
 aws_c_http:
 - 0.6.12
 aws_c_io:
-- 0.10.19
+- 0.10.20
 aws_checksums:
 - 0.1.12
 c_compiler:
