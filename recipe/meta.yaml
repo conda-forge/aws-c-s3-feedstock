@@ -1,5 +1,5 @@
 {% set name = "aws-c-s3" %}
-{% set version = "0.1.41" %}
+{% set version = "0.1.42" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: b33b8f130cd98575f0624e2772f5f006032acd43bb2323077bce416f4b654c6c
+  sha256: 452d03d52d56f23ae9d8d1dcd71f3ca8bc2f788dbd3f5a007544ed86c1dea3f8
   patches:
     - 0001-Find-LibCrypto-on-Linux.patch
 
 build:
-  number: 4
+  number: 0
   run_exports:
     - {{ pin_subpackage("aws-c-s3", max_pin="x.x.x") }}
 
