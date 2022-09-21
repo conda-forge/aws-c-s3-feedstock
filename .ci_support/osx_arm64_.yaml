@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '11.0'
 aws_c_auth:
-- 0.6.16
+- 0.6.17
 aws_c_cal:
 - 0.5.19
 aws_c_common:
