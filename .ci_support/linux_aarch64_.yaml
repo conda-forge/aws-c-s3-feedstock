@@ -3,7 +3,7 @@ BUILD:
 aws_c_auth:
 - 0.6.17
 aws_c_cal:
-- 0.5.19
+- 0.5.20
 aws_c_common:
 - 0.8.2
 aws_c_http:
