@@ -47,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - xhochy
+    - conda-forge/aws-sdk-cpp
