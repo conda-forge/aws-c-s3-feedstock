@@ -1,13 +1,13 @@
 BUILD:
 - aarch64-conda_cos7-linux-gnu
 aws_c_auth:
-- 0.6.19
+- 0.6.20
 aws_c_cal:
 - 0.5.20
 aws_c_common:
 - 0.8.5
 aws_c_http:
-- 0.6.25
+- 0.6.26
 aws_c_io:
 - 0.13.8
 aws_checksums:
