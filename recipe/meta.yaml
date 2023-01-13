@@ -23,7 +23,7 @@ requirements:
     - ninja
   host:
     - aws-checksums
-    - aws-c-auth
+    - aws-c-auth =0.6.21=*_3
     - aws-c-cal
     - aws-c-common
     - aws-c-http
