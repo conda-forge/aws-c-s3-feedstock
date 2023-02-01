@@ -1,5 +1,7 @@
+BUILD:
+- aarch64-conda_cos7-linux-gnu
 aws_c_auth:
-- 0.6.21
+- 0.6.22
 aws_c_cal:
 - 0.5.20
 aws_c_common:
@@ -14,6 +16,8 @@ c_compiler:
 - gcc
 c_compiler_version:
 - '11'
+cdt_arch:
+- aarch64
 cdt_name:
 - cos7
 channel_sources:
@@ -25,4 +29,4 @@ docker_image:
 openssl:
 - '3'
 target_platform:
-- linux-ppc64le
+- linux-aarch64
