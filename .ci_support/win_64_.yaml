@@ -9,7 +9,7 @@ aws_c_http:
 aws_c_io:
 - 0.13.21
 aws_checksums:
-- 0.1.14
+- 0.1.15
 c_compiler:
 - vs2019
 channel_sources:
