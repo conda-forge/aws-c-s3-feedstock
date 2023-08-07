@@ -11,7 +11,7 @@ aws_c_http:
 aws_c_io:
 - 0.13.28
 aws_checksums:
-- 0.1.16
+- 0.1.17
 c_compiler:
 - clang
 c_compiler_version:
