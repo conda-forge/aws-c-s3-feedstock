@@ -3,13 +3,13 @@ MACOSX_DEPLOYMENT_TARGET:
 aws_c_auth:
 - 0.7.4
 aws_c_cal:
-- 0.6.2
+- 0.6.5
 aws_c_common:
 - 0.9.3
 aws_c_http:
 - 0.7.13
 aws_c_io:
-- 0.13.33
+- 0.13.35
 aws_checksums:
 - 0.1.17
 c_compiler:
