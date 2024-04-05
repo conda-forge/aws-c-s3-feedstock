@@ -1,4 +1,4 @@
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: aws-c-s3
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/awslabs/aws-c-s3/archive/v{{ version }}.tar.gz
-  sha256: 81d3913826953cb634ef1183a0c241d5e117419a877b625d69d7e1e54bbe5219
+  sha256: 05ec65bd34e4be349978fc05abe34ff3ce24e2e1cb2b087dc3fcbf2776d6707f
 
 build:
   number: 0
