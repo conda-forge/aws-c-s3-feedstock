@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 MACOSX_SDK_VERSION:
 - '11.0'
 aws_c_auth:
-- 0.7.20
+- 0.7.22
 aws_c_cal:
 - 0.6.12
 aws_c_common:
