@@ -12,7 +12,7 @@ source:
   sha256: b8aeb26072995f2fd4764c788a09a4498002c3e506ef4c2797c559ab018ae0d3
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -35,14 +35,13 @@ requirements:
 tests:
   - script:
       - if: unix
-        then: test -f $PREFIX/lib/libaws-c-s3${SHLIB_EXT}
-      - if: unix
-        then: test -f $PREFIX/include/aws/s3/s3.h
+        then:
+          - test -f $PREFIX/lib/libaws-c-s3${SHLIB_EXT}
+          - test -f $PREFIX/include/aws/s3/s3.h
       - if: win
-        then: if not exist %LIBRARY_INC%\\aws\\s3\\s3.h exit 1
-      - if: win
-        then: if not exist %PREFIX%\\Library\\bin\\aws-c-s3.dll exit 1
-
+        then:
+          - if not exist %LIBRARY_INC%\\aws\\s3\\s3.h exit 1
+          - if not exist %PREFIX%\\Library\\bin\\aws-c-s3.dll exit 1
 about:
   license: Apache-2.0
   license_file: LICENSE
