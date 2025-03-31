@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.13"
+  version: "0.7.14"
 
 package:
   name: aws-c-s3
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/awslabs/aws-c-s3/archive/v${{ version }}.tar.gz
-  sha256: b8aeb26072995f2fd4764c788a09a4498002c3e506ef4c2797c559ab018ae0d3
+  sha256: 1a8cd98612f5d08ac12f1c0ab7235e1750faf8fb0e7680662101626b81963a66
 
 build:
-  number: 3
+  number: 0
 
 requirements:
   build:
