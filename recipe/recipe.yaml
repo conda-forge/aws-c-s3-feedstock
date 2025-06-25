@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.8.2"
+  version: "0.8.3"
 
 package:
   name: aws-c-s3
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/awslabs/aws-c-s3/archive/v${{ version }}.tar.gz
-  sha256: 7c8d8a36ce209114282bbdd7997b64f04b5be7f0614cdebc5bf6a31c665ab6ee
+  sha256: c1c233317927091ee966bb297db2e6adbb596d6e5f981dbc724b0831b7e8f07d
 
 build:
   number: 0
