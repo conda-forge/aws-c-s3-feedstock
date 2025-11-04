@@ -1,13 +1,13 @@
 aws_c_auth:
 - 0.9.1
 aws_c_cal:
-- 0.9.8
+- 0.9.9
 aws_c_common:
 - 0.12.5
 aws_c_http:
 - 0.10.7
 aws_c_io:
-- 0.23.2
+- 0.23.3
 aws_checksums:
 - 0.2.7
 c_compiler:
