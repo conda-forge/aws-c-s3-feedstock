@@ -12,7 +12,7 @@ source:
   sha256: cc656740e8e566b5c0233b1e96c8a91fc10d31872b3fcea6831c57902a746386
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -47,6 +47,7 @@ about:
   license_file: LICENSE
   summary: C99 library implementation for communicating with the S3 service.
   homepage: https://github.com/awslabs/aws-c-s3
+  repository: https://github.com/awslabs/aws-c-s3
 
 extra:
   recipe-maintainers:

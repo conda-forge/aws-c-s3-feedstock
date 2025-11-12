@@ -9,6 +9,8 @@ Package license: Apache-2.0
 
 Summary: C99 library implementation for communicating with the S3 service.
 
+Development: https://github.com/awslabs/aws-c-s3
+
 Current build status
 ====================
 
