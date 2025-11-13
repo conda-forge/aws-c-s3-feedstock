@@ -5,7 +5,7 @@ MACOSX_SDK_VERSION:
 aws_c_auth:
 - 0.9.1
 aws_c_cal:
-- 0.9.9
+- 0.9.10
 aws_c_common:
 - 0.12.5
 aws_c_http:
