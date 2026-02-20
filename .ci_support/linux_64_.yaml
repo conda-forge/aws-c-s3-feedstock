@@ -1,5 +1,5 @@
 aws_c_auth:
-- 0.9.4
+- 0.9.6
 aws_c_cal:
 - 0.9.13
 aws_c_common:
