@@ -5,7 +5,7 @@ aws_c_cal:
 aws_c_common:
 - 0.12.6
 aws_c_http:
-- 0.10.12
+- 0.10.13
 aws_c_io:
 - 0.26.3
 aws_checksums:
