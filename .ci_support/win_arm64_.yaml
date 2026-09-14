@@ -1,0 +1,22 @@
+aws_c_auth:
+- 0.10.5
+aws_c_cal:
+- 0.9.15
+aws_c_common:
+- 0.14.4
+aws_c_http:
+- 0.11.0
+aws_c_io:
+- 0.27.5
+aws_checksums:
+- 0.2.10
+c_compiler:
+- vs2022
+c_stdlib:
+- vs
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+target_platform:
+- win-arm64
