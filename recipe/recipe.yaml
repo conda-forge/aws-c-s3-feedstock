@@ -12,7 +12,7 @@ source:
   sha256: e41697f5c12c8123786caae05491b27cd5a43888a8237f6aa64761d3fe84fd16
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -30,7 +30,7 @@ requirements:
     - if: linux
       then: openssl
   run_exports:
-    - ${{ pin_subpackage("aws-c-s3", upper_bound="x.x.x") }}
+    - ${{ pin_subpackage("aws-c-s3", upper_bound="x.x") }}
 
 tests:
   - script:
