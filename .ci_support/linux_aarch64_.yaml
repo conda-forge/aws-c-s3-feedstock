@@ -1,3 +1,5 @@
+DOCKER_PLATFORM:
+- linux/aarch64
 aws_c_auth:
 - '1.0'
 aws_c_cal:
