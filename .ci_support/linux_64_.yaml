@@ -1,3 +1,5 @@
+DOCKER_PLATFORM:
+- linux/amd64
 aws_c_auth:
 - '1.0'
 aws_c_cal:
@@ -7,7 +9,7 @@ aws_c_common:
 aws_c_http:
 - '1.0'
 aws_c_io:
-- '1.0'
+- '1.1'
 aws_checksums:
 - '1.0'
 c_compiler:
